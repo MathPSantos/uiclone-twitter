@@ -67,7 +67,8 @@ export const MenuButtons = styled.button`
 
         };
 
-        padding-right: 20px; 
+        padding-right: 14px; 
+        padding-left: 14px
     };
 
     padding: 8.25px 0;
