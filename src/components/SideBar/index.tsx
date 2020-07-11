@@ -28,6 +28,8 @@ const SideBar: React.FC = () => {
             elements={[
               <FollowSugestion name="Deni Pires" nickname="@deni_pires" />,
               <FollowSugestion name="Alberto Santos" nickname="@alberto_santos" />,
+              <FollowSugestion name="Marcos Roberto" nickname="@marquinho_de_nete" />,
+              <FollowSugestion name="Simone Silva" nickname="@simsilva" />,
               <FollowSugestion name="Monique Pires" nickname="@mohpires" />,
               <FollowSugestion name="Vitor Souza" nickname="@vitor2008" />,
               <FollowSugestion name="Giovanna Avi" nickname="@gihgihavi" />,
