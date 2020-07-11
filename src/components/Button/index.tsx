@@ -10,7 +10,7 @@ export default styled.button<Props>`
   color: ${({ outlined }) => (outlined ? 'var(--twitter)' : 'var(--white)')};
   border: ${({ outlined }) => (outlined ? '1px solid var(--twitter)' : 'none')};
 
-  padding: 16px;
+  padding: 12px;
   border-radius: 25px;
 
   font-weight: bold;
