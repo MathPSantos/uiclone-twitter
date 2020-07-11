@@ -7,7 +7,8 @@ import {
     FavoriteBorder,
     Person,
     ExitToApp,
-    Rocketseat
+    Rocketseat,
+    Plus
 } from '../../styles/icons';
 
 export const Container = styled.div`
@@ -84,6 +85,15 @@ export const MenuButtons = styled.button`
         width: 40px;
         height: 40px;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > svg {
+            width: 24px;
+            height: 24px;
+        }
+
         > span {
             display: none;
         };
@@ -91,6 +101,10 @@ export const MenuButtons = styled.button`
         @media (min-width: 1280px) {
             width: 100%;
             height: unset;
+
+            > svg {
+                display: none;
+            }
 
             > span {
                 display: inline;
@@ -123,6 +137,7 @@ const iconCSS = css`
     color: var(--white);
 `;
 
+export const PlusIcon = styled(Plus)`${iconCSS}`;
 export const HomeIcon = styled(Home)`${iconCSS}`;
 export const BellIcon = styled(Notifications)`${iconCSS}`;
 export const EmailIcon = styled(Email)`${iconCSS}`;

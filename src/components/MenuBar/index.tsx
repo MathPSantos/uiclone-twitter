@@ -16,6 +16,7 @@ import {
   Avatar,
   ProfileData,
   ExitIcon,
+  PlusIcon
 } from './styles';
 
 const MenuBar: React.FC = () => {
@@ -50,6 +51,7 @@ const MenuBar: React.FC = () => {
         </MenuButtons>
 
         <Button>
+          <PlusIcon/>
           <span>Tweetar</span>
         </Button>
       </TopSide>
